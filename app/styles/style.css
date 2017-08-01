@@ -1,0 +1,136 @@
+@import 'normalize.css';
+
+body {
+  background-color: black;
+}
+
+.user-input-container {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  background-color: lightgrey;
+  align-items: center;
+}
+
+.branding {
+  background-color: cornflowerblue;
+  min-height: 30px;
+  margin: 10px;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.city-input {
+  background-color: cornflowerblue;
+  min-height: 30px;
+  margin: 10px;
+  flex-grow: 7;
+  text-align: center;
+}
+
+.header-title-container {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+    align-items: center;
+}
+
+.flex-item {
+    background-color: cornflowerblue;
+    min-height: 30px;
+    margin: 10px;
+}
+
+.flex-item-grow {
+  background-color: cornflowerblue;
+  min-height: 30px;
+  margin: 10px;
+  flex-grow: 1;
+}
+.current-conditions {
+  background-color: cornflowerblue;
+  min-height: 30px;
+  margin: 10px;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.current-temp {
+  background-color: cornflowerblue;
+  min-height: 30px;
+  margin: 10px;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.current-wind {
+  background-color: cornflowerblue;
+  min-height: 30px;
+  margin: 10px;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.current-top-container {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    background-color: #32cd32;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+.current-bottom-container {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    background-color: #32cd32;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+.forecast-container {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    background-color: #32cd32;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+.day {
+  background-color: cornflowerblue;
+  min-height: 30px;
+  margin: 10px;
+  flex-grow: 1;
+  text-align: center;
+}
+.location-container {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  background-color: #32cd32;
+  align-items: stretch;
+  justify-content: space-around;
+}
+
+#header {
+  background-color: #7fffd4;
+}
+
+#user-input {
+  background-color: #00bfff;
+}
+
+#current {
+  background-color: #32cd32;
+}
+
+#forecast {
+  background-color: #db7083;
+}
+
+#location {
+  background-color: #c0c0c0;
+}
